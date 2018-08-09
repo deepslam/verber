@@ -353,6 +353,7 @@
     "footslog": {"singularPast":"footslogged", "continuous": "footslogging"},
     "forbear": {"singularPast":"forbore", "perfect": "forborne"},
     "forbid": {"singularPast":"forbad", "perfect": "forbidden", "continuous": "forbidding"},
+    "forecast": {"singularPast": "forecast"},
     "fordo": {"singularPast":"fordid", "perfect": "fordone"},
     "foredo": {"singularPast":"foredid", "perfect": "foredone"},
     "forego": {"perfect":"foregone", "singularPast": "forewent"},
