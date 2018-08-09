@@ -267,7 +267,7 @@
     },
     {
       "present": "burn",
-      "past": "burned"
+      "past": "burnt"
     },
     {
       "present": "bury",
@@ -723,7 +723,7 @@
     },
     {
       "present": "expand",
-      "past": "expand"
+      "past": "expanded"
     },
     {
       "present": "expect",
@@ -1175,7 +1175,7 @@
     },
     {
       "present": "learn",
-      "past": "learned"
+      "past": "learnt"
     },
     {
       "present": "level",
@@ -1227,7 +1227,7 @@
     },
     {
       "present": "look",
-      "past": "look"
+      "past": "looked"
     },
     {
       "present": "love",
@@ -1284,10 +1284,6 @@
     {
       "present": "mend",
       "past": "mended"
-    },
-    {
-      "present": "mess up",
-      "past": "messed up"
     },
     {
       "present": "milk",
@@ -1647,7 +1643,7 @@
     },
     {
       "present": "queue",
-      "past": "questioned"
+      "past": "queued"
     },
     {
       "present": "race",
@@ -1783,7 +1779,7 @@
     },
     {
       "present": "rhyme",
-      "past": "rhyme"
+      "past": "rhymed"
     },
     {
       "present": "rinse",
@@ -1895,7 +1891,7 @@
     },
     {
       "present": "separate",
-      "past": "separate"
+      "past": "separated"
     },
     {
       "present": "serve",
@@ -1983,7 +1979,7 @@
     },
     {
       "present": "smell",
-      "past": "smelled"
+      "past": "smelt"
     },
     {
       "present": "smile",
@@ -2039,15 +2035,15 @@
     },
     {
       "present": "spell",
-      "past": "spelled"
+      "past": "spelt"
     },
     {
       "present": "spill",
-      "past": "spilled"
+      "past": "spilt"
     },
     {
       "present": "spoil",
-      "past": "spoiled"
+      "past": "spoilt"
     },
     {
       "present": "spot",
