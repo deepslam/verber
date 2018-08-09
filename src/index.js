@@ -25,15 +25,17 @@ const verber = function (verbString) {
         verbObject.perfect = "been";
         verbObject.continuous = "being";
     }
-    else {
+    else
+    {
         // Assign values for irregular verb tenses
-        let checkRegex = new RegExp("(over|under|un|re|de|dis|mis|out|co|pre|post|sub|inter|over\\-|under\\-|un\\-|re\\-|de\\-|dis\\-|mis\\-|out\\-|co\\-|pre\\-|post\\-|sub\\-|inter\\-|\\b)" + "(" + lowercasedVerbString + "\\b)");
-
-        if (regex = lowercasedVerbString.match(checkRegex)) {
-            let word = regex[1];
-            let firstPart = regex[0];
+        let checkRegex = new RegExp("(over|under|un|re|de|dis|mis|out|co|pre|post|sub|inter|over\\-|under\\-|un\\-|re\\-|de\\-|dis\\-|mis\\-|out\\-|co\\-|pre\\-|post\\-|sub\\-|inter\\-|\\b)" + "(" + lowercasedVerbString + "\\b)", "i");
+        if (checkRegex.test(lowercasedVerbString)) {
+            let regex = checkRegex.exec(lowercasedVerbString);
+            let word = regex[0];
             if (typeof irregular_verbs[word] != "undefined") {
-
+                Object.keys(irregular_verbs[word]).forEach(key => {
+                    verbObject[key] = irregular_verbs[word][key];
+                });
             }
         }
 
