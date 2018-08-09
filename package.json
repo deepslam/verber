@@ -1,0 +1,26 @@
+{
+  "name": "Verber",
+  "version": "0.0.1",
+  "description": "JS script to conjugate English verbs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require babel-core/register -r chai/register-should",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepslam/verber.git"
+  }
+}
