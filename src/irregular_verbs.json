@@ -265,6 +265,7 @@
     "drab": {"singularPast":"drabbed", "continuous": "drabbing"},
     "drag": {"singularPast":"dragged", "continuous": "dragging"},
     "draw": {"perfect":"drawn", "singularPast": "drew"},
+    "dream": {"perfect":"dreamt", "singularPast": "dreamt"},
     "drink": {"singularPast":"drank", "perfect": "drunk"},
     "drip": {"singularPast":"dripped", "continuous": "dripping"},
     "drive": {"perfect":"driven", "singularPast": "drove"},

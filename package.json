@@ -1,6 +1,6 @@
 {
   "name": "eng-verber",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JS script to conjugate English verbs",
   "main": "src/index.js",
   "scripts": {
